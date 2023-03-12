@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bgcolor{
+  background-color: yellow;
+ }
+ .search{
+     align-items: right;
+ }
+ .onsearch{
+     margin-right: 300px !important;
+     width: 700px;
+ }
+ .onsearch button{
+     border: none;
+ }
+ .cards{
+  /* border: 1px solid black; */
+  text-align: center;
+  /* display: inline-block; */
+  /* margin: 5px; */
+}
+.cards-preview{
+  border: 1px solid black;
+  display: inline-block;
+  width: 300px;
+  /* height: 400px; */
+  padding: 10px;
+  /* margin-right: 5px; */
+  margin-top: 5px;
+
+}
+.image{
+  width: 100%;
+  height: 300px;
+  /* margin: 5px; */
+  text-align: center;
+}
+.image img{
+  width: 200px;
+  height: 290px;
+}
+.data{
+  width: 100%;
+  /* margin: 5px; */
+  padding: 10px;
+  width: 100%;
+  height: 80px;
+  
+}
+
+.btns button{
+  background-color: rgb(5, 86, 192);
+  padding: 8px;
+  color: white;
+  border: none;
+}
+.data p {
+  font-size: 13px;
+  width: 100%;
+
+}
